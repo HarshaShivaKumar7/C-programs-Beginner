@@ -36,3 +36,20 @@ int main()
 
 
 
+// Program that prompts the user to input a positive integer. It should then print the multiplication table of that number. 
+
+#include<stdio.h>
+int main()
+{   
+    int i,n,table;
+    printf("Enter a positive Number\n");
+    scanf("%d",&n);
+    for(i=1;i<=10;i++)
+    {
+        printf("%d x %d = %d\n",n,i,n*i);
+    }
+}
+
+
+
+
