@@ -17,3 +17,22 @@ int main() {
     }
     return 0;
 }
+
+
+// To Calculate the sum of numbers
+
+#include<stdio.h>
+int main()
+{   
+    int i,sum= 0 ;
+    for(i = 1 ; i <= 21 ; i++)
+    {
+        sum = sum + i;
+        printf("%d\n",i);
+    }
+    printf("Sum is %d",sum);
+}
+
+
+
+
